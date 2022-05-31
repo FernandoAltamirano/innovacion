@@ -1,0 +1,37 @@
+.navbar-brand{
+    position: relative;
+}
+.logo_text{
+    color: #232323;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    padding: 5px 0;
+    left: 68px;
+    font-weight: bold;
+
+}
+.col-lg-6.info.wow.fadeInUp ul li h5{
+    margin-top: 9px;
+}
+.container-flex{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer-content p{
+    text-align: right;
+}
+
+@media (max-width:500px) {
+    .logo_text{
+        color: #232323;
+        background-color: white;
+        position: absolute;
+        top: 15px;
+        padding: 5px 0;
+        left: 60px;
+        font-weight: bold;
+    
+    }
+}
